@@ -5,6 +5,14 @@
 **Hesheng Yang**  
 **Todd O’Neil**
 
+---
+
+## 🎥 Demo Video Link
+
+[YouTube Demo Video](https://youtu.be/8wNIUUDXiFc)
+
+---
+
 ### Section 1 - REST and GraphQL for Data Requests and Updates:
 <p>
 In the stock app, users need to fetch and update data like stock details, user portfolios, or settings. Both REST and GraphQL can manage these requests and updates, but they work in different ways. Here I will discuss methods in detail.   
