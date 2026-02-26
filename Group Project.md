@@ -57,7 +57,7 @@ Overall, this is a hybrid architect based on Azure, whch ensures scalability, lo
 </p>
 
 ### Section 4 - Architecture Diagram: 
-![][image1]
+![Architecture](/img/cst8916-midterm-architecture.png)
 
 ### Here is a brief explanation for the project architecture diagram: 
 <p>    
