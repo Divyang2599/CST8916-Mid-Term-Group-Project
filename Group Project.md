@@ -27,6 +27,8 @@ On the other hand, GraphQL uses one single endpoint and lets the client ask exac
 In short, Both technologies can fully handle all data requests and updates in our stock market app. REST is simpler and easier to start with, while GraphQL is more flexible and efficient when users need different combinations of data. 
 </p>
 
+---
+
 ### Section 2 - WebSockets for Real-Time Communication:
 <p>
 WebSockets are the perfect choice for our real‑time stock market monitoring system. They allow the server to push updates to clients instantly over a persistent, full-duplex (bidirectional) connection. Unlike HTTP polling, where the client repeatedly asks the server for new data in static intervals, WebSockets keep a single open channel so updates can be delivered the moment they occur. This type of connection can be a key factor in the success or failure of any particular stock trade. Prices often change multiple times per second and if the client were relying on HTTP polling where say polling frequency was set to every 15 seconds, the user looking for a certain price to execute a trade might miss the window they were looking for, which is especially devastating for sell orders when trying to take profits.
@@ -40,6 +42,8 @@ Dataframes sent via Websocket are headerless, which makes them very efficient fo
 <p>
 WebSockets are also useful for tracking stock portfolios and sending alerts with the ability to track changes of multiple symbols at once.  For example if a user had a portfolio made up of 6 different symbols, they could be alerted if their overall portfolio balance dropped a certain percentage as the prices are recalculated as new data flows into the server. Overall, WebSockets provide low‑latency, event‑driven communication that allows a stock monitoring app to be fast, responsive and competitive.
 </p>
+
+---
 
 ### Section 3 - Technology Recommendation and Justification:
 <p>
@@ -64,6 +68,8 @@ To improve reliability and decouple services, an event-driven design using Azure
 Overall, this is a hybrid architect based on Azure, whch ensures scalability, low latency, secure financial transactions, and efficient data delivery. It aligns with cloud-native design principles and supports peak trading loads while maintaining performance and reliability.
 </p>
 
+---
+
 ### Section 4 - Architecture Diagram: 
 ![Architecture](/img/cst8916-midterm-architecture.png)
 
@@ -86,6 +92,8 @@ A Message Broker (Azure Event Hubs or Service Bus) enables asynchronous communic
 <p>  
 This architecture ensures scalability, low latency, reliability, and secure trade processing. 
 </p>
+
+---
 
 ### Section 5 - Member Contributions:
 Divyang Lodariya:
